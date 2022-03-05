@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #dff0d8;
+    color: #a09e9f;
+}
+/* css for header tag */
+.header {
+    background-color: #333333;
+    padding: 25px 0;
+
+}
+.container {
+   max-width: 1260px;
+   margin: 0 auto;
+}
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    flex-basis: 25%;
+    
+}
+.navbar{
+    flex-basis: 25%;
+}
+.logo a{
+    padding: 15px;
+    display: inline-block;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li a{
+    background-color: black;
+    color: #b4ba8d;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.distance {
+    margin: 30px 0;
+    border:black;
+}
+
+.flex-3-column {
+    flex-basis: 31%;
+   
+}
+h3{
+    font-size: 14px;
+    margin: 15px 0;
+
+}
+.read-more , .read-more a {
+    color: #edbe45;
+    text-decoration: none;
+    position: relative;
+}
+p{
+    margin: 15px 0;
+}
+.read-more a::after{
+    font-family: FontAwesome;
+    content: "\10f101";
+    position: absolute;
+    top: 1px;
+    right: -15px;
+}
+
+.flex-half-column{
+    flex-basis: 48%;
+}
+h1{
+    color: black;
+}
+/* footer top */
+
+
+.footer-top{
+    background-color: #333333;
+    padding: 30px 0;
+}
+.flex-4-column{
+    flex-basis: 22%;
+}
+h4{
+    color: #fff;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+ .footer-top ul {
+     list-style: none;
+
+}
+.footer-top ul li a{
+    color: #f28c21;
+    text-decoration: none;
+}
+.footer-top ul li{
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #555555;
+    
+}
+.footer-bottom{
+    background-color: #232323;
+    color: #979797;
+
+}
+.created-by{
+    text-align:right;
+}
+/* Mobile */
+@media (max-width: 767px) {
+    flex-box{
+    flex-direction: column;
+}
+.header {
+    text-align: center;
+}
+.navbar ul{
+    text-align: center;
+}
+.container{
+    padding: 0 25px;
+}
+
+}
+
